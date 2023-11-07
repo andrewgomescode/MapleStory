@@ -1,0 +1,74 @@
+/* LIST COUNTER */
+ol.start { 
+    counter-reset: mycounter;
+}
+ol.start li, ol.continue li {
+    list-style: none;
+}
+ol.start li:before, ol.continue li:before { 
+    content: counter(mycounter) ") "; 
+    counter-increment: mycounter;
+    position:relative;
+    text-align: right;
+    width:25px;
+    display:block;
+    float:left;
+    left:-20px;
+    
+}
+/* FIM DO LIST COUNTER */
+
+h1{
+    padding-left: 25px;
+    font-family: sans-serif;
+    background-color: paleturquoise;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2{
+    padding-left: 25px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h3{
+    padding-left: 25px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ol li{
+    font-family: sans-serif;
+    width: 70%;
+    background-color: #ccc;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+ul li{
+    font-family: sans-serif;
+    padding: 10px 25px 10px 25px;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background: #ccc;
+    display:inline-block;
+}
+
+a:active{
+    background-color: yellow;
+}
