@@ -25,7 +25,10 @@ h1{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
     text-align: center;
+    border-bottom: 3px ;
 }
 
 h2{
@@ -37,23 +40,39 @@ h2{
 h3{
     padding-left: 25px;
     font-family: sans-serif;
+    background-color: rgb(173, 173, 255);
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
 ol li{
     font-family: sans-serif;
     width: 70%;
-    background-color: #ccc;
+    background-color: #e4e4e4;
     padding: 10px 25px 10px 25px;
-    border: 1px solid green;
+    border: 1px solid rgb(122, 142, 255);
     box-sizing: border-box;
 }
 
 ul li{
     font-family: sans-serif;
     padding: 10px 25px 10px 25px;
+}
+
+a{
+    text-decoration: underline;
+}
+
+a.h1{
+    text-decoration: none;
+}
+
+a.alist{
+    text-decoration: underline;
 }
 
 a:link{
@@ -71,4 +90,23 @@ a:hover{
 
 a:active{
     background-color: yellow;
+}
+
+b{
+    font-size: large;
+    font-family: serif;
+}
+
+b.key{
+    font-size: large;
+    font-family: sans-serif;
+    color: rgb(156, 132, 0);
+}
+
+i.italic{
+    color: chocolate;
+}
+
+body{
+    background-color: #ccc;
 }
