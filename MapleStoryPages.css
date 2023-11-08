@@ -40,7 +40,7 @@ h2{
     padding-bottom: 10px;
     font-family: sans-serif;
     color: rgb(72, 63, 134);
-    background-color: #c2c2c2;
+    background-color: #bdbdbd;
     border-bottom: 3px solid rgb(72, 63, 134);
 }
 
@@ -142,8 +142,23 @@ i.italic{
     color: chocolate;
 }
 
+footer{
+    background-color: black;
+    font: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    bottom: 0;
+    margin-top: auto;
+
+}
+
 body{
     background-color: #ccc;
     width: 80%;
     margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
